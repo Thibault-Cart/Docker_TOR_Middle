@@ -9,7 +9,7 @@ SocksPort 0                         # no local proxy
 ControlPort 9051
 CookieAuthentication 1              # nyx automatically connect
 
-RelayBandwidthRate 100 MB            # limit bandwidth rate 
-RelayBandwidthBurst 200 MB
+RelayBandwidthRate 500 KBytes       # limit bandwidth rate 
+RelayBandwidthBurst 1000 KBytes
 
 Log notice stdout
