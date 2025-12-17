@@ -3,7 +3,7 @@ version: "3.9"
 services:
   tor-middle:
     build: .
-    container_name: tor-middle_comp
+    container_name: node-tor-middle
     restart: unless-stopped
     ports:
       - "9001:9001"           # ORPort pour Tor relay

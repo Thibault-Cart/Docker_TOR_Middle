@@ -41,9 +41,9 @@ It is designed to run safely on a personal computer without creating an exit nod
     ```
 4. Check in the log file if everything started correctly
     ```
-    docker logs -f tor-middle_comp
+    docker logs -f node-tor-middle
     ```
 5. Check Nyx to have a live monitoring of your node
     ```
-    docker exec -it tor-middle_comp nyx
+    docker exec -it node-tor-middle nyx
     ```
