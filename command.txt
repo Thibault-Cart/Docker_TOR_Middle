@@ -1,0 +1,4 @@
+docker-compose up -d --build
+
+# to see log in CLI
+docker logs -f tor-middle_comp

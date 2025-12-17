@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  tor-middle:
+    build: .
+    container_name: tor-middle_comp
+    restart: unless-stopped
+    ports:
+      - "9001:9001"           # ORPort pour Tor relay
+      - "127.0.0.1:9052:9051" # ControlPort exposé sur 9052 sur Windows
+    volumes:
+      - ./torrc:/etc/tor/torrc     # Fichier de configuration Tor
+      - ./data:/var/lib/tor        # Données persistantes

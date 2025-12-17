@@ -1,0 +1,15 @@
+Nickname testdoccompose             # name of the node
+ContactInfo MyEmail@mail.com        # put email if you want to be contacted
+
+ORPort 9001
+ExitPolicy reject *:*               # Middle relay (no exit node)
+
+SocksPort 0                         # no local proxy
+
+ControlPort 9051
+CookieAuthentication 1              # nyx automatically connect
+
+RelayBandwidthRate 100 MB            # limit bandwidth rate 
+RelayBandwidthBurst 200 MB
+
+Log notice stdout
