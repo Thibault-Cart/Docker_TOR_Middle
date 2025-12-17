@@ -1,4 +1,4 @@
-Nickname testdoccompose             # name of the node
+Nickname MyReallyCoolNode           # name of the node
 ContactInfo MyEmail@mail.com        # put email if you want to be contacted
 
 ORPort 9001
