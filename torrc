@@ -11,5 +11,6 @@ CookieAuthentication 1              # nyx automatically connect
 
 RelayBandwidthRate 500 KBytes       # limit bandwidth rate 
 RelayBandwidthBurst 1000 KBytes
-
+BandwidthRate 500 KBytes  
+BandwidthBurst 1000 KBytes
 Log notice stdout
